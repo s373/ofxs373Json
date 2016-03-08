@@ -8,21 +8,41 @@
 class ofApp : public ofBaseApp{
 
 	public:
-		void setup();
-		void update();
-		void draw();
 
-		void keyPressed(int key);
-		void keyReleased(int key);
-		void mouseMoved(int x, int y );
-		void mouseDragged(int x, int y, int button);
-		void mousePressed(int x, int y, int button);
-		void mouseReleased(int x, int y, int button);
-		void mouseEntered(int x, int y);
-		void mouseExited(int x, int y);
-		void windowResized(int w, int h);
-		void dragEvent(ofDragInfo dragInfo);
-		void gotMessage(ofMessage msg);
+
+
+
+		void setup(){
+
+			JsonBox::Object o;
+			o["myName"] = JsonBox::Value(123);
+			o["myOtherMember"] = JsonBox::Value("asld\\kfn");
+			o["hahaha"] = JsonBox::Value(true);
+			o["adamo"] = JsonBox::Value(129.09);
+			std::cout << o << std::endl;
+			JsonBox::Value v(o);
+			v.writeToFile("file.json");
+
+			JsonBox::Array a;
+			a.push_back(JsonBox::Value("I'm a string..."));
+			a.push_back(JsonBox::Value(123));
+			std::cout << a << std::endl;
+
+			JsonBox::Value v2;
+			v2.loadFromFile("file.json");
+			std::cout << v2 << std::endl;
+			v2.writeToStream(std::cout, true, true);
+			v2.writeToFile("file.json", false, false);
+
+
+		}
+		void update(){
+
+		}
+		void draw(){
+
+		}
+
 
 
 

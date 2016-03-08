@@ -1,5 +1,5 @@
 obj/linux64/Release/src/main.o: \
- /opt/of090x64/addons/ofxs373Json/s373Jsontester/src/main.cpp \
+ /opt/of090x64/addons/ofxs373Json/example/src/main.cpp \
  /opt/of090x64/libs/openFrameworks/ofMain.h \
  /opt/of090x64/libs/openFrameworks/utils/ofConstants.h \
  /opt/of090x64/libs/tess2/include/tesselator.h \
@@ -330,7 +330,7 @@ obj/linux64/Release/src/main.o: \
  /opt/of090x64/libs/openFrameworks/video/ofGstVideoPlayer.h \
  /opt/of090x64/libs/openFrameworks/3d/ofCamera.h \
  /opt/of090x64/libs/openFrameworks/3d/ofEasyCam.h \
- /opt/of090x64/addons/ofxs373Json/s373Jsontester/src/ofApp.h \
+ /opt/of090x64/addons/ofxs373Json/example/src/ofApp.h \
  /opt/of090x64/addons/ofxs373Json/src/ofxs373Json.h \
  /opt/of090x64/addons/ofxs373Json/libs/JsonBox/include/JsonBox/Value.h \
  /opt/of090x64/addons/ofxs373Json/libs/JsonBox/include/Export.h
@@ -1027,7 +1027,7 @@ obj/linux64/Release/src/main.o: \
 
 /opt/of090x64/libs/openFrameworks/3d/ofEasyCam.h:
 
-/opt/of090x64/addons/ofxs373Json/s373Jsontester/src/ofApp.h:
+/opt/of090x64/addons/ofxs373Json/example/src/ofApp.h:
 
 /opt/of090x64/addons/ofxs373Json/src/ofxs373Json.h:
 
