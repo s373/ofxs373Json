@@ -1,0 +1,37 @@
+{
+	"agility" : 4,
+	"className" : "Fighter",
+	"equipped_armor" : "armor_leather",
+	"equipped_weapon" : "weapon_dagger",
+	"evasion" : 0.015625,
+	"hp" : 13,
+	"hp_max" : 15,
+	"inventory" : {
+		"armor" : [
+			[
+				"armor_leather",
+				1
+			]
+		],
+		"items" : [
+			[
+				"item_gold_coin",
+				105
+			],
+			[
+				"item_iron_key",
+				1
+			]
+		],
+		"weapons" : [
+			[
+				"weapon_dagger",
+				1
+			]
+		]
+	},
+	"level" : 1,
+	"name" : "alpha",
+	"strength" : 5,
+	"xp" : 1
+}
